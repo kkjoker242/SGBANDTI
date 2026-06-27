@@ -1,0 +1,15 @@
+# Core project dependencies inferred from the current codebase.
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib==3.9.4
+prettytable==3.16.0
+tqdm==4.67.3
+yacs==0.1.8
+
+# Deep learning / graph stack
+torch==2.1.0
+dgl==2.2.1+cu121
+dgllife==0.3.2
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt21cu121
