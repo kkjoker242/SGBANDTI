@@ -27,9 +27,9 @@ def cross_entropy_logits(linear_output, label, weights=None):
     return n, loss
 
 
-class NGNN_BAN(nn.Module):
+class SGBANDTI(nn.Module):
     def __init__(self, **config):
-        super(NGNN_BAN, self).__init__()
+        super(SGBANDTI, self).__init__()
         drug_in_feats = config["DRUG"]["NODE_IN_FEATS"]
         drug_embedding = config["DRUG"]["NODE_IN_EMBEDDING"]
         drug_hidden_feats = config["DRUG"]["HIDDEN_LAYERS"]

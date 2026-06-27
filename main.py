@@ -1,4 +1,4 @@
-from models import NGNN_BAN
+from models import SGBANDTI
 from time import time
 from utils import set_seed, graph_collate_func, mkdir
 from configs import get_cfg_defaults
@@ -14,7 +14,7 @@ import pandas as pd
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 SEEDS = [42, 52, 62, 72, 82]
 
-parser = argparse.ArgumentParser(description="NGNN_BAN for DTI prediction")
+parser = argparse.ArgumentParser(description="SGBANDTI for DTI prediction")
 parser.add_argument('--data', default='biosnap', type=str, metavar='TASK',
                     help='dataset', choices=['bindingdb', 'biosnap', 'human'])
 parser.add_argument('--split', default='random', type=str, metavar='S', help="split task", choices=['random', 'cold', 'cluster', 'unseen_drug'])
@@ -80,7 +80,7 @@ def run_single_seed(seed, df_train, df_val, df_test):
     val_generator = DataLoader(val_dataset, **params)
     test_generator = DataLoader(test_dataset, **params)
 
-    model = NGNN_BAN(**cfg).to(device)
+    model = SGBANDTI(**cfg).to(device)
 
     opt = torch.optim.Adam(model.parameters(), lr=cfg.SOLVER.LR)
 
