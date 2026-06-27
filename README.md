@@ -1,6 +1,6 @@
 # SGBANDTI
 
-This project is for drug-target interaction (DTI) prediction with the `NGNN_BAN` model.
+This project is for drug-target interaction (DTI) prediction with the `SGBANDTI` model.
 It is built on PyTorch, DGL, DGL-LifeSci, and PyG.
 
 Supported workflow:
