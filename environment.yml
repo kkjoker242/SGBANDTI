@@ -1,0 +1,22 @@
+name: sgbandti
+channels:
+  - pytorch
+  - dglteam
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch==2.1.0+cu121
+    - dgl==2.2.1+cu121
+    - torch-scatter==2.1.2+pt21cu121
+    - torchdata==0.7.1
+    - dgllife==0.3.2
+    - torch-geometric==2.6.1
+    - rdkit
+    - numpy
+    - pandas
+    - scikit-learn
+    - yacs
+    - prettytable
+    - tqdm

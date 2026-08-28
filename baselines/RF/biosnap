@@ -1,0 +1,20 @@
+1、AUC: 0.8539
+  AUPRC: 0.8768
+  F1: 0.7622
+  Sensitivity: 0.6929
+  Specificity: 0.8747
+  Accuracy: 0.7837
+
+2、AUC: 0.8538
+  AUPRC: 0.8765
+  F1: 0.7642
+  Sensitivity: 0.6929
+  Specificity: 0.8794
+  Accuracy: 0.7861
+
+3、AUC: 0.7498
+AUPRC: 0.7641
+F1: 0.1799
+Sensitivity: 0.0996
+Specificity: 0.9924
+Accuracy: 0.5551

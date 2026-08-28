@@ -1,0 +1,135 @@
+/home/ubuntu/Aplication/anaconda3/envs/ngcn_ban/bin/python /home/ubuntu/Pycharm_Projects/comprasion/MGNDTI-main/code/main_2.py
+start: 2026-01-26 22:49:31.888648
+Hyperparameters: {'DRUG': CfgNode({'NODE_IN_FEATS': 75, 'PADDING': True, 'LAYERS': 1, 'NUM_HEAD': 8, 'HIDDEN_LAYERS': [128, 128, 128], 'NODE_IN_EMBEDDING': 128, 'MAX_NODES': 290}), 'PROTEIN': CfgNode({'LAYERS': 1, 'EMBEDDING_DIM': 128, 'NUM_HEAD': 8, 'PADDING': True}), 'MGN': CfgNode({'EMBEDDING_DIM': 128}), 'DECODER': CfgNode({'NAME': 'MLP', 'IN_DIM': 256, 'HIDDEN_DIM': 128, 'OUT_DIM': 128, 'BINARY': 1}), 'SOLVER': CfgNode({'MAX_EPOCH': 40, 'BATCH_SIZE': 64, 'NUM_WORKERS': 0, 'LR': 5e-05, 'USE_LD': True, 'LR_DECAY': 0.5, 'DECAY_INTERVAL': 20, 'WEIGHT_DECAY': 1e-05, 'SEED': 42}), 'RESULT': CfgNode({'OUTPUT_DIR': './output/biosnap', 'SAVE_MODEL': True})}
+Running on: cuda:0
+
+train_set: 19224
+val_set: 2747
+test_set: 5493
+  0%|          | 0/300 [00:00<?, ?it/s]/home/ubuntu/Aplication/anaconda3/envs/ngcn_ban/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py:445: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  assert input.numel() == input.storage().size(), (
+100%|██████████| 300/300 [00:56<00:00,  5.26it/s]
+Training at Epoch 1 with training loss 1.1883674575885137
+Validation at Epoch 1 with validation loss 0.6508220392604207  AUROC 0.758926232646235 AUPRC 0.7923244613274095
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 2 with training loss 0.597902293006579
+Validation at Epoch 2 with validation loss 0.551268319750941  AUROC 0.8176936023186782 AUPRC 0.8459094489642154
+100%|██████████| 300/300 [00:56<00:00,  5.31it/s]
+Training at Epoch 3 with training loss 0.5262181781729063
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 3 with validation loss 0.5171760895917582  AUROC 0.8401306112406689 AUPRC 0.8646357702966773
+100%|██████████| 300/300 [00:56<00:00,  5.30it/s]
+Training at Epoch 4 with training loss 0.4898729566733042
+Validation at Epoch 4 with validation loss 0.4967326806035153  AUROC 0.8506391106218669 AUPRC 0.8726709155022467
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 5 with training loss 0.46758330971002576
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 5 with validation loss 0.4993312968764194  AUROC 0.8512902579243248 AUPRC 0.867683678640341
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 6 with training loss 0.44597073008616767
+Validation at Epoch 6 with validation loss 0.47372808082159173  AUROC 0.8645990088562395 AUPRC 0.8778836054456715
+100%|██████████| 300/300 [00:56<00:00,  5.31it/s]
+Training at Epoch 7 with training loss 0.4315452042222023
+Validation at Epoch 7 with validation loss 0.46699030801307323  AUROC 0.8676559015261663 AUPRC 0.8803331312987712
+100%|██████████| 300/300 [00:56<00:00,  5.32it/s]
+Training at Epoch 8 with training loss 0.4180425145228704
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 8 with validation loss 0.4617667967496916  AUROC 0.8721518933645546 AUPRC 0.8856307647290422
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 9 with training loss 0.4030010993282
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 9 with validation loss 0.4748620009699533  AUROC 0.872784481908392 AUPRC 0.8849027267588283
+100%|██████████| 300/300 [00:56<00:00,  5.32it/s]
+Training at Epoch 10 with training loss 0.389608268737793
+Validation at Epoch 10 with validation loss 0.44819476715354034  AUROC 0.8788128969585907 AUPRC 0.889598388539011
+100%|██████████| 300/300 [00:56<00:00,  5.30it/s]
+Training at Epoch 11 with training loss 0.37994580502311387
+Validation at Epoch 11 with validation loss 0.45464071700739306  AUROC 0.8764967638827468 AUPRC 0.8884252541911648
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 12 with training loss 0.3693431189159552
+Validation at Epoch 12 with validation loss 0.45944300848384234  AUROC 0.8781426606472659 AUPRC 0.888847180061902
+100%|██████████| 300/300 [00:56<00:00,  5.27it/s]
+Training at Epoch 13 with training loss 0.36183010881145794
+Validation at Epoch 13 with validation loss 0.4546749467073485  AUROC 0.8768520315477686 AUPRC 0.8846003965372661
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 14 with training loss 0.34791026830673216
+Validation at Epoch 14 with validation loss 0.4726445730342421  AUROC 0.8805971890373943 AUPRC 0.8919706530165413
+100%|██████████| 300/300 [00:56<00:00,  5.33it/s]
+Training at Epoch 15 with training loss 0.34315401916702587
+Validation at Epoch 15 with validation loss 0.44562390931816986  AUROC 0.8842060722137206 AUPRC 0.8929203442471934
+100%|██████████| 300/300 [00:56<00:00,  5.32it/s]
+Training at Epoch 16 with training loss 0.329719678213199
+Validation at Epoch 16 with validation loss 0.4471913153348967  AUROC 0.886732714637346 AUPRC 0.8940089851670586
+100%|██████████| 300/300 [00:56<00:00,  5.33it/s]
+Training at Epoch 17 with training loss 0.32101414372523623
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 17 with validation loss 0.4621979781361513  AUROC 0.8857199366669106 AUPRC 0.8924914829849736
+100%|██████████| 300/300 [00:56<00:00,  5.34it/s]
+Training at Epoch 18 with training loss 0.3089134566982587
+Validation at Epoch 18 with validation loss 0.4703174690867579  AUROC 0.8867549851476906 AUPRC 0.8927452820711426
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 19 with training loss 0.30238860567410786
+Validation at Epoch 19 with validation loss 0.4548400993957076  AUROC 0.8874342357132025 AUPRC 0.8946798097882636
+100%|██████████| 300/300 [00:57<00:00,  5.24it/s]
+Training at Epoch 20 with training loss 0.26807818199197453
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 20 with validation loss 0.4470587989618612  AUROC 0.8894194926353545 AUPRC 0.8967235617563971
+100%|██████████| 300/300 [00:57<00:00,  5.21it/s]
+Training at Epoch 21 with training loss 0.25492308189471563
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 21 with validation loss 0.465499782285025  AUROC 0.8945541708954123 AUPRC 0.9008238224577886
+100%|██████████| 300/300 [00:57<00:00,  5.26it/s]
+Training at Epoch 22 with training loss 0.24772021549443404
+Validation at Epoch 22 with validation loss 0.45127167916575145  AUROC 0.8936551316028087 AUPRC 0.9010136995814777
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 23 with training loss 0.24462855440874895
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 23 with validation loss 0.4662807777870533  AUROC 0.8921322528954314 AUPRC 0.8991820952393796
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 24 with training loss 0.2338541806489229
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 24 with validation loss 0.4644929420116336  AUROC 0.8914042193072598 AUPRC 0.8967507342827868
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 25 with training loss 0.22469356638689836
+Validation at Epoch 25 with validation loss 0.4763800744400468  AUROC 0.8905711961703205 AUPRC 0.8990550499400611
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 26 with training loss 0.21991202399134635
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 26 with validation loss 0.48671881819880286  AUROC 0.8945602687732449 AUPRC 0.9011580494760735
+100%|██████████| 300/300 [00:56<00:00,  5.31it/s]
+Training at Epoch 27 with training loss 0.21809285109241802
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 27 with validation loss 0.4683548634828523  AUROC 0.8975013017643547 AUPRC 0.9040437804877786
+100%|██████████| 300/300 [00:56<00:00,  5.32it/s]
+Training at Epoch 28 with training loss 0.21265023723244666
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 28 with validation loss 0.4799493558185045  AUROC 0.8950719602609255 AUPRC 0.899650597093923
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 29 with training loss 0.20199350734551746
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 29 with validation loss 0.4807227292033129  AUROC 0.894153831959455 AUPRC 0.9018918281753472
+100%|██████████| 300/300 [00:56<00:00,  5.27it/s]
+Training at Epoch 30 with training loss 0.19890747350951035
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 30 with validation loss 0.47415917280108427  AUROC 0.892863998235327 AUPRC 0.8980866098184717
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 31 with training loss 0.19441857241094113
+Validation at Epoch 31 with validation loss 0.48273782085540684  AUROC 0.8968885976047536 AUPRC 0.9031422745357317
+100%|██████████| 300/300 [00:56<00:00,  5.28it/s]
+Training at Epoch 32 with training loss 0.18418581609924634
+Validation at Epoch 32 with validation loss 0.5211259161317071  AUROC 0.8913167280166202 AUPRC 0.8948042398613929
+100%|██████████| 300/300 [00:56<00:00,  5.27it/s]
+Training at Epoch 33 with training loss 0.18502928589781126
+Validation at Epoch 33 with validation loss 0.5035094823255095  AUROC 0.891166667196917 AUPRC 0.8954547937754856
+100%|██████████| 300/300 [00:56<00:00,  5.30it/s]
+Training at Epoch 34 with training loss 0.1765780749420325
+Validation at Epoch 34 with validation loss 0.5243784015954926  AUROC 0.8932293406550288 AUPRC 0.8974521915281051
+100%|██████████| 300/300 [00:56<00:00,  5.30it/s]
+Training at Epoch 35 with training loss 0.17371364250779153
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 35 with validation loss 0.5129410485888637  AUROC 0.8945061832481223 AUPRC 0.8982135637434709
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 36 with training loss 0.16754266689221065
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 36 with validation loss 0.5297984702642574  AUROC 0.8919254552993741 AUPRC 0.8962304508874797
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 37 with training loss 0.164033405619363
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 37 with validation loss 0.5115536319655042  AUROC 0.8954760109486071 AUPRC 0.8985522981575236
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 38 with training loss 0.16222009850045047
+  0%|          | 0/300 [00:00<?, ?it/s]Validation at Epoch 38 with validation loss 0.569444325774215  AUROC 0.8924485471673502 AUPRC 0.897965712382904
+100%|██████████| 300/300 [00:56<00:00,  5.29it/s]
+Training at Epoch 39 with training loss 0.15609332603712878
+Validation at Epoch 39 with validation loss 0.5301853965881259  AUROC 0.8945056529978759 AUPRC 0.8982310582912436
+100%|██████████| 300/300 [00:56<00:00,  5.30it/s]
+Training at Epoch 40 with training loss 0.13000262647867203
+Validation at Epoch 40 with validation loss 0.5357578777989676  AUROC 0.8937834521624135 AUPRC 0.8985313057504446
+Test at Best Model of Epoch 27 with test loss 0.47267860693987024  AUROC 0.894674119677699 AUPRC 0.8979797259721389 F1 0.8180830491413501 Sensitivity 0.8417030567685587 Specificity 0.7839708561020033 Accuracy 0.812852721645731 Thred_optim 0.4201486110687256
+Total running time of the model: 0 hours 42 minutes 10 seconds
+end: 2026-01-26 23:31:41.943523
+
+进程已结束，退出代码为 0

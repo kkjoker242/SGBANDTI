@@ -1,0 +1,11 @@
+split,part,n,pos,neg,drugs,proteins
+random,train,19220,9725,9495,4406,2177
+random,val,2746,1370,1376,1934,1334
+random,test,5491,2735,2756,2909,1839
+unseen_drug,train,19372,9832,9540,3154,2177
+unseen_drug,val,2795,1441,1354,450,1343
+unseen_drug,test,5290,2557,2733,901,1819
+unseen_target,train,19980,10445,9535,4382,1527
+unseen_target,val,2574,1184,1390,1896,218
+unseen_target,test,4903,2201,2702,2821,436
+random_total,all,27457,13830,13627,4505,2181

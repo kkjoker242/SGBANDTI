@@ -1,0 +1,23 @@
+# Core project dependencies inferred from the current codebase.
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib==3.9.4
+prettytable==3.16.0
+tqdm==4.67.3
+yacs==0.1.8
+
+# Deep learning / graph stack
+torch==2.1.0
+dgl==2.2.1+cu121
+dgllife==0.3.2
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt21cu121
+
+# 分子处理（dgllife 依赖，需单独安装）
+rdkit
+
+# 注意（兼容性踩坑，详见 README 环境节）：
+# - torch 默认源是 CPU 版，必须装 cu121：pip install torch==2.1.0+cu121 -f https://download.pytorch.org/whl/torch_stable.html
+# - dgl 2.2.1 需要 torchdata==0.7.1（0.11 移除了 datapipes），以及 pydantic
+# - torchdata 需手动降到 0.7.1；pydantic 需手动安装

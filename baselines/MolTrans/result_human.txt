@@ -1,0 +1,485 @@
+/home/ubuntu/Aplication/anaconda3/envs/ngcn_ban/bin/python /home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py
+--- Data Preparation ---
+optimal threshold: 0.44195014238357544
+AUROC:0.5064229430089793
+AUPRC: 0.4737119113062109
+Confusion Matrix :
+ [[ 18 624]
+ [  6 504]]
+Recall :  0.9882352941176471
+Precision :  0.44680851063829785
+Accuracy :  0.453125
+Sensitivity :  0.028037383177570093
+Specificity :  0.9882352941176471
+Initial Testing AUROC: 0.5064229430089793 , AUPRC: 0.4737119113062109 , F1: 0.582312925170068 , Test loss: 0.7236779928207397
+--- Go for Training ---
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 1 iteration 0 with loss 0.7092838
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.5506691932678223
+AUROC:0.9252728281644985
+AUPRC: 0.9248400184032569
+Confusion Matrix :
+ [[305  26]
+ [ 47 198]]
+Recall :  0.8081632653061225
+Precision :  0.8839285714285714
+Accuracy :  0.8732638888888888
+Sensitivity :  0.9214501510574018
+Specificity :  0.8081632653061225
+Validation at Epoch 1 , AUROC: 0.9252728281644985 , AUPRC: 0.9248400184032569 , F1: 0.8110236220472441
+Training at Epoch 2 iteration 0 with loss 0.35944656
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.4947068691253662
+AUROC:0.9616159369245789
+AUPRC: 0.9230461900247283
+Confusion Matrix :
+ [[303  30]
+ [ 25 218]]
+Recall :  0.897119341563786
+Precision :  0.8790322580645161
+Accuracy :  0.9045138888888888
+Sensitivity :  0.9099099099099099
+Specificity :  0.897119341563786
+Validation at Epoch 2 , AUROC: 0.9616159369245789 , AUPRC: 0.9230461900247283 , F1: 0.8811475409836066
+Training at Epoch 3 iteration 0 with loss 0.26551962
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.23972229659557343
+AUROC:0.9733806786437058
+AUPRC: 0.9481416251299404
+Confusion Matrix :
+ [[304  33]
+ [ 16 223]]
+Recall :  0.9330543933054394
+Precision :  0.87109375
+Accuracy :  0.9149305555555556
+Sensitivity :  0.9020771513353115
+Specificity :  0.9330543933054394
+Validation at Epoch 3 , AUROC: 0.9733806786437058 , AUPRC: 0.9481416251299404 , F1: 0.89171974522293
+Training at Epoch 4 iteration 0 with loss 0.11294889
+optimal threshold: 0.9643301963806152
+AUROC:0.9720675252349461
+AUPRC: 0.957180165914639
+Confusion Matrix :
+ [[307  31]
+ [ 10 228]]
+Recall :  0.957983193277311
+Precision :  0.8803088803088803
+Accuracy :  0.9288194444444444
+Sensitivity :  0.908284023668639
+Specificity :  0.957983193277311
+Validation at Epoch 4 , AUROC: 0.9720675252349461 , AUPRC: 0.957180165914639 , F1: 0.6880466472303207
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 5 iteration 0 with loss 0.15250282
+optimal threshold: 0.9223613142967224
+AUROC:0.9776438857821547
+AUPRC: 0.9571411555849287
+Confusion Matrix :
+ [[310  24]
+ [ 15 227]]
+Recall :  0.9380165289256198
+Precision :  0.9043824701195219
+Accuracy :  0.9322916666666666
+Sensitivity :  0.9281437125748503
+Specificity :  0.9380165289256198
+Validation at Epoch 5 , AUROC: 0.9776438857821547 , AUPRC: 0.9571411555849287 , F1: 0.8074324324324325
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 6 iteration 0 with loss 0.1610341
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.15466704964637756
+AUROC:0.9745951017183488
+AUPRC: 0.9279845575436018
+Confusion Matrix :
+ [[305  27]
+ [ 12 232]]
+Recall :  0.9508196721311475
+Precision :  0.8957528957528957
+Accuracy :  0.9322916666666666
+Sensitivity :  0.9186746987951807
+Specificity :  0.9508196721311475
+Validation at Epoch 6 , AUROC: 0.9745951017183488 , AUPRC: 0.9279845575436018 , F1: 0.9121338912133892
+Training at Epoch 7 iteration 0 with loss 0.098106444
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.4054262340068817
+AUROC:0.9796481417330628
+AUPRC: 0.9778654650808293
+Confusion Matrix :
+ [[317  17]
+ [ 15 227]]
+Recall :  0.9380165289256198
+Precision :  0.930327868852459
+Accuracy :  0.9444444444444444
+Sensitivity :  0.9491017964071856
+Specificity :  0.9380165289256198
+Validation at Epoch 7 , AUROC: 0.9796481417330628 , AUPRC: 0.9778654650808293 , F1: 0.9330543933054394
+Training at Epoch 8 iteration 0 with loss 0.060621805
+optimal threshold: 0.7414160966873169
+AUROC:0.9820977878952839
+AUPRC: 0.9779265518266175
+Confusion Matrix :
+ [[316  18]
+ [ 16 226]]
+Recall :  0.9338842975206612
+Precision :  0.9262295081967213
+Accuracy :  0.9409722222222222
+Sensitivity :  0.9461077844311377
+Specificity :  0.9338842975206612
+Validation at Epoch 8 , AUROC: 0.9820977878952839 , AUPRC: 0.9779265518266175 , F1: 0.9181636726546906
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 9 iteration 0 with loss 0.061846554
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9987448453903198
+AUROC:0.9829267085663385
+AUPRC: 0.9791117368088628
+Confusion Matrix :
+ [[319  15]
+ [ 18 224]]
+Recall :  0.9256198347107438
+Precision :  0.9372384937238494
+Accuracy :  0.9427083333333334
+Sensitivity :  0.9550898203592815
+Specificity :  0.9256198347107438
+Validation at Epoch 9 , AUROC: 0.9829267085663385 , AUPRC: 0.9791117368088628 , F1: 0.6237113402061856
+Training at Epoch 10 iteration 0 with loss 0.028956506
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.07763650268316269
+AUROC:0.9741623831052207
+AUPRC: 0.9400760968234662
+Confusion Matrix :
+ [[307  28]
+ [ 14 227]]
+Recall :  0.941908713692946
+Precision :  0.8901960784313725
+Accuracy :  0.9270833333333334
+Sensitivity :  0.9164179104477612
+Specificity :  0.941908713692946
+Validation at Epoch 10 , AUROC: 0.9741623831052207 , AUPRC: 0.9400760968234662 , F1: 0.9017857142857143
+Training at Epoch 11 iteration 0 with loss 0.0313392
+optimal threshold: 0.04373150318861008
+AUROC:0.9779885912698412
+AUPRC: 0.9769725747196197
+Confusion Matrix :
+ [[317  19]
+ [ 15 225]]
+Recall :  0.9375
+Precision :  0.9221311475409836
+Accuracy :  0.9409722222222222
+Sensitivity :  0.9434523809523809
+Specificity :  0.9375
+Validation at Epoch 11 , AUROC: 0.9779885912698412 , AUPRC: 0.9769725747196197 , F1: 0.9111111111111111
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 12 iteration 0 with loss 0.008194071
+optimal threshold: 0.13414396345615387
+AUROC:0.9836857330866742
+AUPRC: 0.9814915119600643
+Confusion Matrix :
+ [[314  23]
+ [  9 230]]
+Recall :  0.9623430962343096
+Precision :  0.9090909090909091
+Accuracy :  0.9444444444444444
+Sensitivity :  0.9317507418397626
+Specificity :  0.9623430962343096
+Validation at Epoch 12 , AUROC: 0.9836857330866742 , AUPRC: 0.9814915119600643 , F1: 0.9308176100628931
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 13 iteration 0 with loss 0.025690693
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.7800099849700928
+AUROC:0.9820854159449697
+AUPRC: 0.9807119955179715
+Confusion Matrix :
+ [[318  16]
+ [ 14 228]]
+Recall :  0.9421487603305785
+Precision :  0.9344262295081968
+Accuracy :  0.9479166666666666
+Sensitivity :  0.9520958083832335
+Specificity :  0.9421487603305785
+Validation at Epoch 13 , AUROC: 0.9820854159449697 , AUPRC: 0.9807119955179715 , F1: 0.9308943089430894
+Training at Epoch 14 iteration 0 with loss 0.0077993716
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.6566765308380127
+AUROC:0.9852443936154345
+AUPRC: 0.9831463406605346
+Confusion Matrix :
+ [[326  12]
+ [ 17 221]]
+Recall :  0.9285714285714286
+Precision :  0.9484978540772532
+Accuracy :  0.9496527777777778
+Sensitivity :  0.9644970414201184
+Specificity :  0.9285714285714286
+Validation at Epoch 14 , AUROC: 0.9852443936154345 , AUPRC: 0.9831463406605346 , F1: 0.9305263157894736
+Training at Epoch 15 iteration 0 with loss 0.0072725033
+optimal threshold: 0.36201006174087524
+AUROC:0.9850746268656718
+AUPRC: 0.981613676648151
+Confusion Matrix :
+ [[323  12]
+ [ 18 223]]
+Recall :  0.9253112033195021
+Precision :  0.948936170212766
+Accuracy :  0.9479166666666666
+Sensitivity :  0.9641791044776119
+Specificity :  0.9253112033195021
+Validation at Epoch 15 , AUROC: 0.9850746268656718 , AUPRC: 0.981613676648151 , F1: 0.9276595744680851
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 16 iteration 0 with loss 0.030429225
+optimal threshold: 0.6667363047599792
+AUROC:0.9838302794629782
+AUPRC: 0.9825655342667825
+Confusion Matrix :
+ [[312  17]
+ [ 12 235]]
+Recall :  0.951417004048583
+Precision :  0.9325396825396826
+Accuracy :  0.9496527777777778
+Sensitivity :  0.9483282674772037
+Specificity :  0.951417004048583
+Validation at Epoch 16 , AUROC: 0.9838302794629782 , AUPRC: 0.9825655342667825 , F1: 0.9362549800796812
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 17 iteration 0 with loss 0.0043330826
+optimal threshold: 0.9778034687042236
+AUROC:0.9771798914865352
+AUPRC: 0.9736366293683605
+Confusion Matrix :
+ [[310  27]
+ [ 16 223]]
+Recall :  0.9330543933054394
+Precision :  0.892
+Accuracy :  0.9253472222222222
+Sensitivity :  0.9198813056379822
+Specificity :  0.9330543933054394
+Validation at Epoch 17 , AUROC: 0.9771798914865352 , AUPRC: 0.9736366293683605 , F1: 0.8280701754385965
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 18 iteration 0 with loss 0.008944774
+optimal threshold: 0.8207096457481384
+AUROC:0.9850827905126548
+AUPRC: 0.9821486039503932
+Confusion Matrix :
+ [[317  21]
+ [ 12 226]]
+Recall :  0.9495798319327731
+Precision :  0.9149797570850202
+Accuracy :  0.9427083333333334
+Sensitivity :  0.9378698224852071
+Specificity :  0.9495798319327731
+Validation at Epoch 18 , AUROC: 0.9850827905126548 , AUPRC: 0.9821486039503932 , F1: 0.9138276553106213
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 19 iteration 0 with loss 0.0069337455
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9816240668296814
+AUROC:0.9854487664973989
+AUPRC: 0.9827855132023109
+Confusion Matrix :
+ [[318  19]
+ [ 16 223]]
+Recall :  0.9330543933054394
+Precision :  0.9214876033057852
+Accuracy :  0.9392361111111112
+Sensitivity :  0.9436201780415431
+Specificity :  0.9330543933054394
+Validation at Epoch 19 , AUROC: 0.9854487664973989 , AUPRC: 0.9827855132023109 , F1: 0.8818011257035647
+Training at Epoch 20 iteration 0 with loss 0.015194808
+optimal threshold: 0.8305281400680542
+AUROC:0.9822363223385345
+AUPRC: 0.9813862717796834
+Confusion Matrix :
+ [[315  17]
+ [ 18 226]]
+Recall :  0.9262295081967213
+Precision :  0.9300411522633745
+Accuracy :  0.9392361111111112
+Sensitivity :  0.9487951807228916
+Specificity :  0.9262295081967213
+Validation at Epoch 20 , AUROC: 0.9822363223385345 , AUPRC: 0.9813862717796834 , F1: 0.9166666666666666
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 21 iteration 0 with loss 0.014583591
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.02063746191561222
+AUROC:0.9750581481664771
+AUPRC: 0.9728523841656104
+Confusion Matrix :
+ [[316  18]
+ [ 19 223]]
+Recall :  0.9214876033057852
+Precision :  0.9253112033195021
+Accuracy :  0.9357638888888888
+Sensitivity :  0.9461077844311377
+Specificity :  0.9214876033057852
+Validation at Epoch 21 , AUROC: 0.9750581481664771 , AUPRC: 0.9728523841656104 , F1: 0.8986784140969163
+Training at Epoch 22 iteration 0 with loss 0.0074637495
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.6401830315589905
+AUROC:0.9764208653097541
+AUPRC: 0.9792845797460915
+Confusion Matrix :
+ [[323  10]
+ [ 16 227]]
+Recall :  0.934156378600823
+Precision :  0.9578059071729957
+Accuracy :  0.9548611111111112
+Sensitivity :  0.96996996996997
+Specificity :  0.934156378600823
+Validation at Epoch 22 , AUROC: 0.9764208653097541 , AUPRC: 0.9792845797460915 , F1: 0.9421487603305785
+Training at Epoch 23 iteration 0 with loss 0.0052533653
+optimal threshold: 0.6605867743492126
+AUROC:0.9818132330380562
+AUPRC: 0.9809822503179567
+Confusion Matrix :
+ [[315  19]
+ [ 17 225]]
+Recall :  0.9297520661157025
+Precision :  0.9221311475409836
+Accuracy :  0.9375
+Sensitivity :  0.9431137724550899
+Specificity :  0.9297520661157025
+Validation at Epoch 23 , AUROC: 0.9818132330380562 , AUPRC: 0.9809822503179567 , F1: 0.9202453987730062
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 24 iteration 0 with loss 0.0023670339
+optimal threshold: 0.08101259917020798
+AUROC:0.9536458333333332
+AUPRC: 0.9623179152640707
+Confusion Matrix :
+ [[330   6]
+ [ 24 216]]
+Recall :  0.9
+Precision :  0.972972972972973
+Accuracy :  0.9479166666666666
+Sensitivity :  0.9821428571428571
+Specificity :  0.9
+Validation at Epoch 24 , AUROC: 0.9536458333333332 , AUPRC: 0.9623179152640707 , F1: 0.9086859688195991
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 25 iteration 0 with loss 0.021209404
+optimal threshold: 0.6700711846351624
+AUROC:0.9847907329004382
+AUPRC: 0.9818354299343848
+Confusion Matrix :
+ [[321  16]
+ [ 17 222]]
+Recall :  0.9288702928870293
+Precision :  0.9327731092436975
+Accuracy :  0.9427083333333334
+Sensitivity :  0.9525222551928784
+Specificity :  0.9288702928870293
+Validation at Epoch 25 , AUROC: 0.9847907329004382 , AUPRC: 0.9818354299343848 , F1: 0.9192546583850931
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 26 iteration 0 with loss 0.00785274
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.4047713577747345
+AUROC:0.9842052201187409
+AUPRC: 0.9811126693839957
+Confusion Matrix :
+ [[313  26]
+ [ 10 227]]
+Recall :  0.9578059071729957
+Precision :  0.8972332015810277
+Accuracy :  0.9375
+Sensitivity :  0.9233038348082596
+Specificity :  0.9578059071729957
+Validation at Epoch 26 , AUROC: 0.9842052201187409 , AUPRC: 0.9811126693839957 , F1: 0.9262295081967213
+Training at Epoch 27 iteration 0 with loss 0.025360748
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.793104887008667
+AUROC:0.9877408272470001
+AUPRC: 0.9846432217196851
+Confusion Matrix :
+ [[315  18]
+ [ 17 226]]
+Recall :  0.9300411522633745
+Precision :  0.9262295081967213
+Accuracy :  0.9392361111111112
+Sensitivity :  0.9459459459459459
+Specificity :  0.9300411522633745
+Validation at Epoch 27 , AUROC: 0.9877408272470001 , AUPRC: 0.9846432217196851 , F1: 0.912
+Training at Epoch 28 iteration 0 with loss 0.00216734
+optimal threshold: 0.813345730304718
+AUROC:0.9831349206349206
+AUPRC: 0.9799607163711838
+Confusion Matrix :
+ [[318  18]
+ [ 14 226]]
+Recall :  0.9416666666666667
+Precision :  0.9262295081967213
+Accuracy :  0.9444444444444444
+Sensitivity :  0.9464285714285714
+Specificity :  0.9416666666666667
+Validation at Epoch 28 , AUROC: 0.9831349206349206 , AUPRC: 0.9799607163711838 , F1: 0.9218436873747495
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 29 iteration 0 with loss 0.033694174
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8647453188896179
+AUROC:0.9822733557179538
+AUPRC: 0.9806953286179497
+Confusion Matrix :
+ [[323   9]
+ [ 22 222]]
+Recall :  0.9098360655737705
+Precision :  0.961038961038961
+Accuracy :  0.9461805555555556
+Sensitivity :  0.9728915662650602
+Specificity :  0.9098360655737705
+Validation at Epoch 29 , AUROC: 0.9822733557179538 , AUPRC: 0.9806953286179497 , F1: 0.9288702928870293
+Training at Epoch 30 iteration 0 with loss 0.0018229572
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.5563755035400391
+AUROC:0.9783860779092092
+AUPRC: 0.9785428533039953
+Confusion Matrix :
+ [[323  12]
+ [ 14 227]]
+Recall :  0.941908713692946
+Precision :  0.9497907949790795
+Accuracy :  0.9548611111111112
+Sensitivity :  0.9641791044776119
+Specificity :  0.941908713692946
+Validation at Epoch 30 , AUROC: 0.9783860779092092 , AUPRC: 0.9785428533039953 , F1: 0.9458333333333333
+--- Go for Testing ---
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_human.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8493776321411133
+AUROC:0.9815631764213818
+AUPRC: 0.9828243322654875
+Confusion Matrix :
+ [[615  26]
+ [ 26 485]]
+Recall :  0.949119373776908
+Precision :  0.949119373776908
+Accuracy :  0.9548611111111112
+Sensitivity :  0.9594383775351014
+Specificity :  0.949119373776908
+Testing AUROC: 0.9815631764213818 , AUPRC: 0.9828243322654875 , F1: 0.9365384615384615 , Test loss: 0.23663878440856934
+350.28910183906555
+
+进程已结束，退出代码为 0

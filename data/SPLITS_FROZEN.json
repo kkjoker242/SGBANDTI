@@ -1,0 +1,78 @@
+{
+ "git_commit": "5d93e6c89213c747a6d958a2012885327a03710a",
+ "note": "冻结的最终 split；任何数据变化都会导致哈希改变",
+ "splits": {
+  "bindingdb/random": {
+   "hash": {
+    "train": "5c3f4eede73965b9b67dd57aceb850e9",
+    "val": "9d4dafe2c4e598f43b87d210719566cd",
+    "test": "cdcfc9e882355180ee36ff043de794ba"
+   },
+   "counts": {
+    "samples": {
+     "train": 34439,
+     "val": 4920,
+     "test": 9840
+    },
+    "drugs": 14643,
+    "proteins": 2623,
+    "positive": 20674,
+    "negative": 28525
+   }
+  },
+  "biosnap/random": {
+   "hash": {
+    "train": "81fad27b7b412a0414df6caec20c662a",
+    "val": "ae82621e3788ee7b8b854658d359c420",
+    "test": "a9303219466496ec1f30578cc7ddb9e5"
+   },
+   "counts": {
+    "samples": {
+     "train": 19220,
+     "val": 2746,
+     "test": 5491
+    },
+    "drugs": 4505,
+    "proteins": 2181,
+    "positive": 13830,
+    "negative": 13627
+   }
+  },
+  "biosnap/unseen_drug": {
+   "hash": {
+    "train": "85a335679862ddf0fed18acd6014aebe",
+    "val": "84d9c2587ad70f010a329b7d417cc6da",
+    "test": "9309f6201dffc5d643d6a4f723233dd2"
+   },
+   "counts": {
+    "samples": {
+     "train": 19372,
+     "val": 2795,
+     "test": 5290
+    },
+    "drugs": 4505,
+    "proteins": 2181,
+    "positive": 13830,
+    "negative": 13627
+   }
+  },
+  "biosnap/unseen_target": {
+   "hash": {
+    "train": "9ba54b7dd3715053d98bb536fa58c047",
+    "val": "6250bdebd5b287eb0cd0213f9fc7c9c7",
+    "test": "e7d380e7cc6fe3d9cd58444d1b9606bb"
+   },
+   "counts": {
+    "samples": {
+     "train": 19980,
+     "val": 2574,
+     "test": 4903
+    },
+    "drugs": 4505,
+    "proteins": 2181,
+    "positive": 13830,
+    "negative": 13627
+   }
+  }
+ }
+}

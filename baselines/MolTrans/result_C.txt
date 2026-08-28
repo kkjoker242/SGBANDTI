@@ -1,0 +1,635 @@
+/home/ubuntu/Aplication/anaconda3/envs/ngcn_ban/bin/python /home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py
+--- Data Preparation ---
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.3380642235279083
+AUROC:0.43655904134114587
+AUPRC: 0.4824016255078796
+Confusion Matrix :
+ [[  0 768]
+ [  0 768]]
+Recall :  1.0
+Precision :  0.5
+Accuracy :  0.5
+Sensitivity :  0.0
+Specificity :  1.0
+Initial Testing AUROC: 0.43655904134114587 , AUPRC: 0.4824016255078796 , F1: 0.5991146089522873 , Test loss: 0.7210458517074585
+--- Go for Training ---
+Training at Epoch 1 iteration 0 with loss 0.68140876
+optimal threshold: 0.33673587441444397
+AUROC:0.9772943059436291
+AUPRC: 0.9804343537895038
+Confusion Matrix :
+ [[352  30]
+ [ 29 357]]
+Recall :  0.9248704663212435
+Precision :  0.9224806201550387
+Accuracy :  0.9231770833333334
+Sensitivity :  0.9214659685863874
+Specificity :  0.9248704663212435
+Validation at Epoch 1 , AUROC: 0.9772943059436291 , AUPRC: 0.9804343537895038 , F1: 0.8976157082748948
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 2 iteration 0 with loss 0.28988922
+optimal threshold: 0.8793230056762695
+AUROC:0.9841643382253208
+AUPRC: 0.985007126481821
+Confusion Matrix :
+ [[372  14]
+ [ 34 348]]
+Recall :  0.9109947643979057
+Precision :  0.9613259668508287
+Accuracy :  0.9375
+Sensitivity :  0.9637305699481865
+Specificity :  0.9109947643979057
+Validation at Epoch 2 , AUROC: 0.9841643382253208 , AUPRC: 0.985007126481821 , F1: 0.9079903147699758
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 3 iteration 0 with loss 0.19530557
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.6089217066764832
+AUROC:0.992038248957309
+AUPRC: 0.9914474049084633
+Confusion Matrix :
+ [[361  24]
+ [  9 374]]
+Recall :  0.9765013054830287
+Precision :  0.9396984924623115
+Accuracy :  0.95703125
+Sensitivity :  0.9376623376623376
+Specificity :  0.9765013054830287
+Validation at Epoch 3 , AUROC: 0.992038248957309 , AUPRC: 0.9914474049084633 , F1: 0.9459119496855346
+Training at Epoch 4 iteration 0 with loss 0.10394053
+optimal threshold: 0.4082408547401428
+AUROC:0.9901664914719744
+AUPRC: 0.991400064886573
+Confusion Matrix :
+ [[362  21]
+ [  9 376]]
+Recall :  0.9766233766233766
+Precision :  0.947103274559194
+Accuracy :  0.9609375
+Sensitivity :  0.9451697127937336
+Specificity :  0.9766233766233766
+Validation at Epoch 4 , AUROC: 0.9901664914719744 , AUPRC: 0.991400064886573 , F1: 0.9601029601029601
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 5 iteration 0 with loss 0.07182549
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9583160281181335
+AUROC:0.9945067986843443
+AUPRC: 0.9948142833648488
+Confusion Matrix :
+ [[372  13]
+ [ 14 369]]
+Recall :  0.9634464751958225
+Precision :  0.9659685863874345
+Accuracy :  0.96484375
+Sensitivity :  0.9662337662337662
+Specificity :  0.9634464751958225
+Validation at Epoch 5 , AUROC: 0.9945067986843443 , AUPRC: 0.9948142833648488 , F1: 0.8665158371040724
+Training at Epoch 6 iteration 0 with loss 0.06095819
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9483688473701477
+AUROC:0.9904377606727476
+AUPRC: 0.9905070516578066
+Confusion Matrix :
+ [[361  22]
+ [ 12 373]]
+Recall :  0.9688311688311688
+Precision :  0.9443037974683545
+Accuracy :  0.9557291666666666
+Sensitivity :  0.9425587467362925
+Specificity :  0.9688311688311688
+Validation at Epoch 6 , AUROC: 0.9904377606727476 , AUPRC: 0.9905070516578066 , F1: 0.9294403892944039
+Training at Epoch 7 iteration 0 with loss 0.061035544
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.05372827872633934
+AUROC:0.9942966037326388
+AUPRC: 0.9950125087798292
+Confusion Matrix :
+ [[373  11]
+ [ 11 373]]
+Recall :  0.9713541666666666
+Precision :  0.9713541666666666
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9713541666666666
+Specificity :  0.9713541666666666
+Validation at Epoch 7 , AUROC: 0.9942966037326388 , AUPRC: 0.9950125087798292 , F1: 0.9539295392953929
+Training at Epoch 8 iteration 0 with loss 0.013660369
+optimal threshold: 0.8487828969955444
+AUROC:0.9925943508188939
+AUPRC: 0.9923670133018285
+Confusion Matrix :
+ [[372  13]
+ [ 11 372]]
+Recall :  0.9712793733681462
+Precision :  0.9662337662337662
+Accuracy :  0.96875
+Sensitivity :  0.9662337662337662
+Specificity :  0.9712793733681462
+Validation at Epoch 8 , AUROC: 0.9925943508188939 , AUPRC: 0.9923670133018285 , F1: 0.961340206185567
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 9 iteration 0 with loss 0.041380264
+optimal threshold: 0.9182406067848206
+AUROC:0.9940997748419824
+AUPRC: 0.9946597143859646
+Confusion Matrix :
+ [[375   7]
+ [ 16 370]]
+Recall :  0.9585492227979274
+Precision :  0.9814323607427056
+Accuracy :  0.9700520833333334
+Sensitivity :  0.981675392670157
+Specificity :  0.9585492227979274
+Validation at Epoch 9 , AUROC: 0.9940997748419824 , AUPRC: 0.9946597143859646 , F1: 0.96248382923674
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 10 iteration 0 with loss 0.024673186
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9238609075546265
+AUROC:0.992139974907599
+AUPRC: 0.9930409213921134
+Confusion Matrix :
+ [[376   9]
+ [ 14 369]]
+Recall :  0.9634464751958225
+Precision :  0.9761904761904762
+Accuracy :  0.9700520833333334
+Sensitivity :  0.9766233766233766
+Specificity :  0.9634464751958225
+Validation at Epoch 10 , AUROC: 0.992139974907599 , AUPRC: 0.9930409213921134 , F1: 0.9551856594110115
+Training at Epoch 11 iteration 0 with loss 0.012862156
+optimal threshold: 0.03539404645562172
+AUROC:0.9931097623003629
+AUPRC: 0.99414280628923
+Confusion Matrix :
+ [[377   8]
+ [ 14 369]]
+Recall :  0.9634464751958225
+Precision :  0.9787798408488063
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9792207792207792
+Specificity :  0.9634464751958225
+Validation at Epoch 11 , AUROC: 0.9931097623003629 , AUPRC: 0.99414280628923 , F1: 0.9213483146067416
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 12 iteration 0 with loss 0.04794335
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.5806270241737366
+AUROC:0.9945743216206502
+AUPRC: 0.9947002155719159
+Confusion Matrix :
+ [[378   9]
+ [ 16 365]]
+Recall :  0.958005249343832
+Precision :  0.9759358288770054
+Accuracy :  0.9674479166666666
+Sensitivity :  0.9767441860465116
+Specificity :  0.958005249343832
+Validation at Epoch 12 , AUROC: 0.9945743216206502 , AUPRC: 0.9947002155719159 , F1: 0.9644268774703557
+Training at Epoch 13 iteration 0 with loss 0.01959034
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8020757436752319
+AUROC:0.9962903936794276
+AUPRC: 0.9965232102784886
+Confusion Matrix :
+ [[370  13]
+ [  7 378]]
+Recall :  0.9818181818181818
+Precision :  0.9667519181585678
+Accuracy :  0.9739583333333334
+Sensitivity :  0.9660574412532638
+Specificity :  0.9818181818181818
+Validation at Epoch 13 , AUROC: 0.9962903936794276 , AUPRC: 0.9965232102784886 , F1: 0.9669211195928753
+Training at Epoch 14 iteration 0 with loss 0.033072036
+optimal threshold: 0.951560378074646
+AUROC:0.9924655490451388
+AUPRC: 0.9911825847040753
+Confusion Matrix :
+ [[372  12]
+ [ 12 372]]
+Recall :  0.96875
+Precision :  0.96875
+Accuracy :  0.96875
+Sensitivity :  0.96875
+Specificity :  0.96875
+Validation at Epoch 14 , AUROC: 0.9924655490451388 , AUPRC: 0.9911825847040753 , F1: 0.9484276729559749
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 15 iteration 0 with loss 0.014098635
+optimal threshold: 0.9286468625068665
+AUROC:0.9940524631076388
+AUPRC: 0.9942072291749195
+Confusion Matrix :
+ [[370  14]
+ [ 13 371]]
+Recall :  0.9661458333333334
+Precision :  0.9636363636363636
+Accuracy :  0.96484375
+Sensitivity :  0.9635416666666666
+Specificity :  0.9661458333333334
+Validation at Epoch 15 , AUROC: 0.9940524631076388 , AUPRC: 0.9942072291749195 , F1: 0.959079283887468
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 16 iteration 0 with loss 0.0045264773
+optimal threshold: 0.955049991607666
+AUROC:0.9934081584212132
+AUPRC: 0.9943107014891142
+Confusion Matrix :
+ [[379   4]
+ [ 21 364]]
+Recall :  0.9454545454545454
+Precision :  0.9891304347826086
+Accuracy :  0.9674479166666666
+Sensitivity :  0.9895561357702349
+Specificity :  0.9454545454545454
+Validation at Epoch 16 , AUROC: 0.9934081584212132 , AUPRC: 0.9943107014891142 , F1: 0.9622886866059818
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 17 iteration 0 with loss 0.0032963464
+optimal threshold: 0.2923503816127777
+AUROC:0.9943844228773728
+AUPRC: 0.9944882501358139
+Confusion Matrix :
+ [[377  10]
+ [  9 372]]
+Recall :  0.9763779527559056
+Precision :  0.9738219895287958
+Accuracy :  0.9752604166666666
+Sensitivity :  0.9741602067183462
+Specificity :  0.9763779527559056
+Validation at Epoch 17 , AUROC: 0.9943844228773728 , AUPRC: 0.9944882501358139 , F1: 0.973753280839895
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 18 iteration 0 with loss 0.0019764835
+optimal threshold: 0.8098132014274597
+AUROC:0.993133544921875
+AUPRC: 0.9826072243184643
+Confusion Matrix :
+ [[374  10]
+ [ 14 370]]
+Recall :  0.9635416666666666
+Precision :  0.9736842105263158
+Accuracy :  0.96875
+Sensitivity :  0.9739583333333334
+Specificity :  0.9635416666666666
+Validation at Epoch 18 , AUROC: 0.993133544921875 , AUPRC: 0.9826072243184643 , F1: 0.9623865110246433
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 19 iteration 0 with loss 0.0027281297
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8991315960884094
+AUROC:0.9950017632856795
+AUPRC: 0.995590887952202
+Confusion Matrix :
+ [[375  11]
+ [ 12 370]]
+Recall :  0.9685863874345549
+Precision :  0.9711286089238845
+Accuracy :  0.9700520833333334
+Sensitivity :  0.9715025906735751
+Specificity :  0.9685863874345549
+Validation at Epoch 19 , AUROC: 0.9950017632856795 , AUPRC: 0.995590887952202 , F1: 0.9675745784695201
+Training at Epoch 20 iteration 0 with loss 0.0027372818
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9506595134735107
+AUROC:0.9910074259943712
+AUPRC: 0.9871560259608776
+Confusion Matrix :
+ [[370  15]
+ [  6 377]]
+Recall :  0.9843342036553525
+Precision :  0.9617346938775511
+Accuracy :  0.97265625
+Sensitivity :  0.961038961038961
+Specificity :  0.9843342036553525
+Validation at Epoch 20 , AUROC: 0.9910074259943712 , AUPRC: 0.9871560259608776 , F1: 0.9558638083228247
+Training at Epoch 21 iteration 0 with loss 0.0033652526
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9961093068122864
+AUROC:0.9877994194720994
+AUPRC: 0.9835696971929935
+Confusion Matrix :
+ [[368  14]
+ [  7 379]]
+Recall :  0.9818652849740933
+Precision :  0.9643765903307888
+Accuracy :  0.97265625
+Sensitivity :  0.9633507853403142
+Specificity :  0.9818652849740933
+Validation at Epoch 21 , AUROC: 0.9877994194720994 , AUPRC: 0.9835696971929935 , F1: 0.927007299270073
+Training at Epoch 22 iteration 0 with loss 0.032450378
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9333617091178894
+AUROC:0.9902682834201388
+AUPRC: 0.9893015703537118
+Confusion Matrix :
+ [[376   8]
+ [  9 375]]
+Recall :  0.9765625
+Precision :  0.97911227154047
+Accuracy :  0.9778645833333334
+Sensitivity :  0.9791666666666666
+Specificity :  0.9765625
+Validation at Epoch 22 , AUROC: 0.9902682834201388 , AUPRC: 0.9893015703537118 , F1: 0.9716494845360825
+Training at Epoch 23 iteration 0 with loss 0.00081330934
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9506742358207703
+AUROC:0.9876504696348039
+AUPRC: 0.9855114560659721
+Confusion Matrix :
+ [[369  16]
+ [  7 376]]
+Recall :  0.9817232375979112
+Precision :  0.9591836734693877
+Accuracy :  0.9700520833333334
+Sensitivity :  0.9584415584415584
+Specificity :  0.9817232375979112
+Validation at Epoch 23 , AUROC: 0.9876504696348039 , AUPRC: 0.9855114560659721 , F1: 0.9630573248407643
+Training at Epoch 24 iteration 0 with loss 0.00072296127
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.2840050756931305
+AUROC:0.987324258886244
+AUPRC: 0.9921139885965764
+Confusion Matrix :
+ [[374   7]
+ [ 13 374]]
+Recall :  0.9664082687338501
+Precision :  0.9816272965879265
+Accuracy :  0.9739583333333334
+Sensitivity :  0.9816272965879265
+Specificity :  0.9664082687338501
+Validation at Epoch 24 , AUROC: 0.987324258886244 , AUPRC: 0.9921139885965764 , F1: 0.9685863874345549
+Training at Epoch 25 iteration 0 with loss 0.0023385715
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.998389482498169
+AUROC:0.995924180258384
+AUPRC: 0.9963723138691699
+Confusion Matrix :
+ [[376   7]
+ [ 11 374]]
+Recall :  0.9714285714285714
+Precision :  0.9816272965879265
+Accuracy :  0.9765625
+Sensitivity :  0.9817232375979112
+Specificity :  0.9714285714285714
+Validation at Epoch 25 , AUROC: 0.995924180258384 , AUPRC: 0.9963723138691699 , F1: 0.9607097591888466
+Training at Epoch 26 iteration 0 with loss 0.0018126144
+optimal threshold: 0.9326188564300537
+AUROC:0.9843681123054491
+AUPRC: 0.9883997387664945
+Confusion Matrix :
+ [[376   7]
+ [ 15 370]]
+Recall :  0.961038961038961
+Precision :  0.9814323607427056
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9817232375979112
+Specificity :  0.961038961038961
+Validation at Epoch 26 , AUROC: 0.9843681123054491 , AUPRC: 0.9883997387664945 , F1: 0.9661458333333334
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 27 iteration 0 with loss 0.0006087636
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.1859508752822876
+AUROC:0.9536265301278356
+AUPRC: 0.8753337453753282
+Confusion Matrix :
+ [[354  31]
+ [  9 374]]
+Recall :  0.9765013054830287
+Precision :  0.9234567901234568
+Accuracy :  0.9479166666666666
+Sensitivity :  0.9194805194805195
+Specificity :  0.9765013054830287
+Validation at Epoch 27 , AUROC: 0.9536265301278356 , AUPRC: 0.8753337453753282 , F1: 0.9462915601023018
+Training at Epoch 28 iteration 0 with loss 0.013412438
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9742959141731262
+AUROC:0.9938286675347222
+AUPRC: 0.9946816715268352
+Confusion Matrix :
+ [[377   7]
+ [ 13 371]]
+Recall :  0.9661458333333334
+Precision :  0.9814814814814815
+Accuracy :  0.9739583333333334
+Sensitivity :  0.9817708333333334
+Specificity :  0.9661458333333334
+Validation at Epoch 28 , AUROC: 0.9938286675347222 , AUPRC: 0.9946816715268352 , F1: 0.9592875318066157
+Training at Epoch 29 iteration 0 with loss 0.01582389
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9958047270774841
+AUROC:0.9889050896883794
+AUPRC: 0.9888134229238026
+Confusion Matrix :
+ [[375  10]
+ [ 13 370]]
+Recall :  0.9660574412532638
+Precision :  0.9736842105263158
+Accuracy :  0.9700520833333334
+Sensitivity :  0.974025974025974
+Specificity :  0.9660574412532638
+Validation at Epoch 29 , AUROC: 0.9889050896883794 , AUPRC: 0.9888134229238026 , F1: 0.9581749049429658
+Training at Epoch 30 iteration 0 with loss 0.0027063175
+optimal threshold: 0.9701583385467529
+AUROC:0.9961988661024306
+AUPRC: 0.9965122012816212
+Confusion Matrix :
+ [[376   8]
+ [ 12 372]]
+Recall :  0.96875
+Precision :  0.9789473684210527
+Accuracy :  0.9739583333333334
+Sensitivity :  0.9791666666666666
+Specificity :  0.96875
+Validation at Epoch 30 , AUROC: 0.9961988661024306 , AUPRC: 0.9965122012816212 , F1: 0.9692307692307692
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 31 iteration 0 with loss 0.014911762
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9475722312927246
+AUROC:0.994533629032805
+AUPRC: 0.9943618036915448
+Confusion Matrix :
+ [[378   9]
+ [ 10 371]]
+Recall :  0.973753280839895
+Precision :  0.9763157894736842
+Accuracy :  0.9752604166666666
+Sensitivity :  0.9767441860465116
+Specificity :  0.973753280839895
+Validation at Epoch 31 , AUROC: 0.994533629032805 , AUPRC: 0.9943618036915448 , F1: 0.9675745784695201
+Training at Epoch 32 iteration 0 with loss 0.0004013533
+optimal threshold: 0.09878925234079361
+AUROC:0.9883557695568139
+AUPRC: 0.9688056073891247
+Confusion Matrix :
+ [[368  17]
+ [  7 376]]
+Recall :  0.9817232375979112
+Precision :  0.9567430025445293
+Accuracy :  0.96875
+Sensitivity :  0.9558441558441558
+Specificity :  0.9817232375979112
+Validation at Epoch 32 , AUROC: 0.9883557695568139 , AUPRC: 0.9688056073891247 , F1: 0.9685863874345549
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 33 iteration 0 with loss 0.0004301111
+optimal threshold: 0.9397857785224915
+AUROC:0.9947882758246528
+AUPRC: 0.9938800211153954
+Confusion Matrix :
+ [[371  13]
+ [  9 375]]
+Recall :  0.9765625
+Precision :  0.9664948453608248
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9661458333333334
+Specificity :  0.9765625
+Validation at Epoch 33 , AUROC: 0.9947882758246528 , AUPRC: 0.9938800211153954 , F1: 0.9679075738125802
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 34 iteration 0 with loss 0.0004363168
+optimal threshold: 0.9207084774971008
+AUROC:0.9843173556857638
+AUPRC: 0.9547425495854073
+Confusion Matrix :
+ [[368  16]
+ [  8 376]]
+Recall :  0.9791666666666666
+Precision :  0.9591836734693877
+Accuracy :  0.96875
+Sensitivity :  0.9583333333333334
+Specificity :  0.9791666666666666
+Validation at Epoch 34 , AUROC: 0.9843173556857638 , AUPRC: 0.9547425495854073 , F1: 0.9591836734693877
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 35 iteration 0 with loss 0.00049074646
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.9860137701034546
+AUROC:0.9867552812722525
+AUPRC: 0.9667486998869774
+Confusion Matrix :
+ [[370  13]
+ [  7 378]]
+Recall :  0.9818181818181818
+Precision :  0.9667519181585678
+Accuracy :  0.9739583333333334
+Sensitivity :  0.9660574412532638
+Specificity :  0.9818181818181818
+Validation at Epoch 35 , AUROC: 0.9867552812722525 , AUPRC: 0.9667486998869774 , F1: 0.9546599496221663
+Training at Epoch 36 iteration 0 with loss 0.020723369
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.7098675966262817
+AUROC:0.9889896373056994
+AUPRC: 0.9903660739203851
+Confusion Matrix :
+ [[383   3]
+ [ 15 367]]
+Recall :  0.9607329842931938
+Precision :  0.9918918918918919
+Accuracy :  0.9765625
+Sensitivity :  0.9922279792746114
+Specificity :  0.9607329842931938
+Validation at Epoch 36 , AUROC: 0.9889896373056994 , AUPRC: 0.9903660739203851 , F1: 0.9747675962815405
+Training at Epoch 37 iteration 0 with loss 0.0005747806
+optimal threshold: 0.18758201599121094
+AUROC:0.9915698522180851
+AUPRC: 0.9935200848862331
+Confusion Matrix :
+ [[365  16]
+ [  9 378]]
+Recall :  0.9767441860465116
+Precision :  0.9593908629441624
+Accuracy :  0.9674479166666666
+Sensitivity :  0.958005249343832
+Specificity :  0.9767441860465116
+Validation at Epoch 37 , AUROC: 0.9915698522180851 , AUPRC: 0.9935200848862331 , F1: 0.9664082687338501
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 38 iteration 0 with loss 0.00093491806
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8268356919288635
+AUROC:0.992404513888889
+AUPRC: 0.9943157646617785
+Confusion Matrix :
+ [[377   7]
+ [ 15 369]]
+Recall :  0.9609375
+Precision :  0.9813829787234043
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9817708333333334
+Specificity :  0.9609375
+Validation at Epoch 38 , AUROC: 0.992404513888889 , AUPRC: 0.9943157646617785 , F1: 0.9672346002621232
+Training at Epoch 39 iteration 0 with loss 0.023313718
+optimal threshold: 0.9967327117919922
+AUROC:0.9906073039232308
+AUPRC: 0.9866703359990072
+Confusion Matrix :
+ [[377   8]
+ [ 14 369]]
+Recall :  0.9634464751958225
+Precision :  0.9787798408488063
+Accuracy :  0.9713541666666666
+Sensitivity :  0.9792207792207792
+Specificity :  0.9634464751958225
+Validation at Epoch 39 , AUROC: 0.9906073039232308 , AUPRC: 0.9866703359990072 , F1: 0.9615384615384616
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+Training at Epoch 40 iteration 0 with loss 0.00026382226
+optimal threshold: 0.005740277469158173
+AUROC:0.9738084257928002
+AUPRC: 0.9426932977001447
+Confusion Matrix :
+ [[370  16]
+ [ 14 368]]
+Recall :  0.9633507853403142
+Precision :  0.9583333333333334
+Accuracy :  0.9609375
+Sensitivity :  0.9585492227979274
+Specificity :  0.9633507853403142
+Validation at Epoch 40 , AUROC: 0.9738084257928002 , AUPRC: 0.9426932977001447 , F1: 0.9371584699453552
+--- Go for Testing ---
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+/home/ubuntu/Pycharm_Projects/comprasion/MolTrans-master/train_C.elegans.py:83: RuntimeWarning: invalid value encountered in divide
+  precision = tpr / (tpr + fpr)
+optimal threshold: 0.8863659501075745
+AUROC:0.9952154894713642
+AUPRC: 0.9960676313359269
+Confusion Matrix :
+ [[752  14]
+ [ 29 741]]
+Recall :  0.9623376623376624
+Precision :  0.9814569536423841
+Accuracy :  0.9720052083333334
+Sensitivity :  0.9817232375979112
+Specificity :  0.9623376623376624
+Testing AUROC: 0.9952154894713642 , AUPRC: 0.9960676313359269 , F1: 0.9691912708600771 , Test loss: 0.09753187000751495
+589.283721446991
+
+进程已结束，退出代码为 0
